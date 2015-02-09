@@ -13,7 +13,7 @@
   </head>
   <body>
 <div id="fullpage">
-  <div class="section " id="section0">
+  <div class="section" id="section0">
     <video autoplay loop muted id="myVideo">
       <source src="vid/video_home.mp4" type="video/mp4">
     </video>
@@ -21,8 +21,7 @@
       <h1>Loerm Ipsum</h1>
     </div>
   </div>
-  <div class="section" id="section1">
-<div data-options="sticky_on: [large]">    
+  <div class="section" id="section1">   
 <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
     <li class="name">
@@ -31,8 +30,7 @@
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
-
-  <section class="top-bar-section">
+  <section class="top-bar-section" data-options="sticky_on">
     <!-- Right Nav Section -->
     <ul class="right">
       <li class="active"><a href="#">PRODUCTS</a></li>
@@ -43,13 +41,44 @@
     <!-- Left Nav Section -->
   </section>
 </nav>
-</div>
-      <div class="slide" id="slide1"><h1>Carrousel 1</h1></div>
-      <div class="slide" id="slide2"><h1>Carrousel 2</h1></div>
-      <div class="slide" id="slide3"><h1>Carrousel 3</h1></div>
+      <div class="slide" id="slide1">
+        <div class="row">
+          <div class="large-6 columns">
+            <img src="img/drone1.png" width="500">
+          </div>
+          <div class="large-6 columns">
+            <h2>Lorem Ipsum</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide" id="slide2">
+        <div class="row">
+          <div class="large-6 columns">
+            <img src="img/drone2.png" width="500">
+          </div>
+          <div class="large-6 columns">
+            <h2>Lorem Ipsum</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide" id="slide3">
+        <div class="row">
+          <div class="large-6 columns">
+            <img src="img/drone3.png" width="500">
+          </div>
+          <div class="large-6 columns">
+            <h2>Lorem Ipsum</h2>
+          </div>
+        </div>
+      </div>
   </div>
-  <div class="section" id="section2"><h1>New & Event <br />Social Network</h1></div>
-  <div class="section" id="section3"><h1>Footer</h1></div>
+  <div class="section" id="section2">
+    <div class="row">
+      <div class="small-2 large-4 columns"><h2>Event</h2></div>
+      <div class="small-4 large-4 columns"><h2>News</h2></div>
+      <div class="small-6 large-4 columns"><h2>Social Network<h2></div>
+</div>
+  </div>
 </div>
     <script type="text/javascript">
     $(document).ready(function() {
@@ -57,8 +86,6 @@
         verticalCentered: true,
         sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
         afterRender: function(){
-
-
           //playing the video
           $('video').get(0).play();
         }

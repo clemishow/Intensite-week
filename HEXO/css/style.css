@@ -34,8 +34,6 @@
 	z-index:3;
 }
 
-
-
 /* Layer with position absolute in order to have it over the video
 * --------------------------------------- */
 #section0 .layer {
@@ -47,6 +45,12 @@
 }
 
 /*solves problem with overflowing video in Mac with Chrome */
-#section0{
+#section0 {
 	overflow: hidden;
 }
+
+#section2 {
+	height: 200px !important;
+}
+
+/* scroll checkpoint*/
