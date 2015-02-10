@@ -12,11 +12,11 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
   </head>
   <body>
-<div id="header" class="fadeIn animation_delay">
-<nav class="top-bar" data-topbar role="navigation">
+<div id="header" class="fadeIn animation_delay"> <!--animation menu + menu fixe -->
+<nav class="top-bar" data-topbar role="navigation"> <!-- menu fixe -->
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">LOGO</a></h1>
+      <h1><a href="#">LOGO</a></h1> <!-- logo à gauche du menu (il faudrait mettre un vrai logo) -->
     </li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -29,21 +29,20 @@
       <li class="active"><a href="#">BLOG</a></li>
       <li class="active"><a href="#">PREORDER NOW</a></li>
     </ul>
-    <!-- Left Nav Section -->
   </section>
 </nav>
 </div>
-<div id="fullpage">
-  <div class="section" id="section0">
+<div id="fullpage"> <!-- animation scroll -->
+  <div class="section" id="section0"> <!-- slide 1 -->
     <video autoplay loop muted id="myVideo">
       <source src="vid/video_home.mp4" type="video/mp4">
     </video>
     <div class="layer">
-      <h1>Loerm Ipsum</h1>
+      <h1>HEXO+</h1>
     </div>
   </div>
-  <div class="section" id="section1">   
-      <div class="slide" id="slide1">
+  <div class="section" id="section1"> <!-- slide 2 --> 
+      <div class="slide" id="slide1"> <!-- carrousel image 1 --> 
         <div class="row">
           <div class="large-6 columns">
             <img src="img/drone1.png" width="500">
@@ -53,7 +52,7 @@
           </div>
         </div>
       </div>
-      <div class="slide" id="slide2">
+      <div class="slide" id="slide2"> <!-- carrousel image 2 --> 
         <div class="row">
           <div class="large-6 columns">
             <img src="img/drone2.png" width="500">
@@ -63,7 +62,7 @@
           </div>
         </div>
       </div>
-      <div class="slide" id="slide3">
+      <div class="slide" id="slide3"> <!-- carrousel image 3 --> 
         <div class="row">
           <div class="large-6 columns">
             <img src="img/drone3.png" width="500">
@@ -74,9 +73,9 @@
         </div>
       </div>
   </div>
-  <div class="section" id="section2">
-    <div class="row">
-      <div class="large-4 columns"><h2>Event</h2></div>
+  <div class="section" id="section2"> <!-- slide 3 --> 
+    <div class="row"> <!-- colonne pour le responsive -->
+      <div class="large-4 columns"><h2>Event</h2></div> 
       <div class="large-4 columns"><h2>News</h2></div>
       <div class="large-4 columns"><h2>Social Network<h2></div>
 </div>
