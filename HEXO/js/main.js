@@ -1,3 +1,5 @@
+var hidden = document.getElementById('header');
+
 $(document).ready(function() {
   
   var isPlayed = {
@@ -31,19 +33,27 @@ $(document).ready(function() {
       var idVideo = 0;
 
       switch (anchorLink) {
+        case 'home':
+          hidden.style.display = "block";
+          break;
         case 'secondPage':
+          hidden.style.display = "none";
           idVideo = 1;
           break;
         case 'thirdPage':
+          hidden.style.display = "none";
           idVideo = 2;
           break;
         case 'fourthPage':
+          hidden.style.display = "none";
           idVideo = 3;
           break;
         case 'fifthPage':
+          hidden.style.display = "none";
           idVideo = 4;
           break;
         case 'sixPage':
+          hidden.style.display = "none";
           idVideo = 5;
           break;
       }
@@ -51,7 +61,7 @@ $(document).ready(function() {
       if (idVideo != 0) vidplay(idVideo);
     },
 
-    sectionsColor: ['#34495e', '#34495e', '#34495e', '#34495e', '#34495e', '#34495e'],
+    sectionsColor: ['black', '#34495e', '#34495e', '#34495e', '#34495e', '#34495e'],
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page', 'Last page'],

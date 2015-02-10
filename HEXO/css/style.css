@@ -1,24 +1,29 @@
 /*HEADER FIXER*/
 #header {
-		position: fixed;
+    position: fixed;
 		display: block;
 		width: 100%;
 		background: #333;
-		z-index: 9;
 		text-align: center;
 		color: #f2f2f2;
+    z-index: 9;
 }
 
-#header {
-		top: 0px;
+#header_fixed {
+    position: fixed;
+    display: block;
+    width: 100%;
+    background: #333;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
 }
 
-.video_home {
-	margin-top: -170px;
-	height: 100%;
+#header_fixed {
+    top: 0px;
 }
 
-	h1 {
+h1 {
 	font-size: 5em;
 	font-family: 'arial' !important;
 	color: #fff;
@@ -42,10 +47,10 @@
 	height: 100%;
 	background-size: 100% 100%;
  	background-color: black; /* in case the video doesn't fit the whole page*/
-  	background-image: /* our video */;
-  	background-position: center center;
-  	background-size: contain;
-   	object-fit: cover; /*cover video background */
+  background-image: /* our video */;
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover; /*cover video background */
 	z-index:3;
 }
 
@@ -65,15 +70,11 @@
 	overflow: hidden;
 }
 
-#gif_drone {
-	background: ('url:img/drone.gif');
-	width: 200px;
-	height: 100px;
-}
-
-h3 {
+h3 + h2 {
   color: white!important;
 }
+
+
 
 #drone {
 	z-index: 9999;
