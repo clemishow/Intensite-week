@@ -20,7 +20,7 @@
 
 	h1 {
 	font-size: 5em;
-	font-family: arial,helvetica;
+	font-family: 'arial' !important;
 	color: #fff;
 	margin:0;
 	padding:0;
@@ -129,8 +129,8 @@
     100% {opacity: 1;} 
 } 
 
-.animation_delay {
-	-webkit-animation-duration: 2s; 
+#animation_drone_product {
+    -webkit-animation-duration: 2s; 
     animation-duration: 2s;
     -webkit-animation-delay: 1s; 
     animation-delay: 1s;  
@@ -146,9 +146,27 @@
     0% {opacity: 0;} 
     100% {opacity: 1;} 
 } 
+
+#animation_text_product {
+    -webkit-animation-duration: 2s; 
+    animation-duration: 2s;
+    -webkit-animation-delay: 1.5s; 
+    animation-delay: 1.5s;  
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+
+} 
+
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
 }
 
-.animation_delay_two {
+.animation_delay {
 	-webkit-animation-duration: 2s; 
     animation-duration: 2s;
     -webkit-animation-delay: 2s; 
@@ -167,9 +185,10 @@
 } 
 }
 
-
-.moveOn {
-	@keyframes moveOn{
+.moveTop {
+  -webkit-animation-name: moveTop; 
+    animation-name: moveTop; 
+	@keyframes moveTop{
   0% {
     transform:  translate(0px,0px)  ;
   }
