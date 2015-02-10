@@ -1,3 +1,18 @@
+/*HEADER FIXER*/
+#header {
+		position: fixed;
+		display: block;
+		width: 100%;
+		background: #333;
+		z-index: 9;
+		text-align: center;
+		color: #f2f2f2;
+}
+
+#header {
+		top: 0px;
+}
+
 .video_home {
 	margin-top: -170px;
 	height: 100%;
@@ -87,6 +102,44 @@
     0% {opacity: 0;} 
     100% {opacity: 1;} 
 } 
+
+#animation_frame_product {
+    -webkit-animation-duration: 2s; 
+    animation-duration: 2s;
+    -webkit-animation-delay: 1s; 
+    animation-delay: 1s;  
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+
+.animation_delay {
+	-webkit-animation-duration: 2s; 
+    animation-duration: 2s;
+    -webkit-animation-delay: 1s; 
+    animation-delay: 1s;  
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+}
+
 
 .moveOn {
 	@keyframes moveOn{
