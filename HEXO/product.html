@@ -24,7 +24,7 @@
     $(document).ready(function() {
       $('#fullpage').fullpage({
         anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        sectionsColor: ['#F2F2F2', '#1BBC9B', '#7E8F7C'],
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page', 'Last page']
@@ -34,11 +34,31 @@
 
 </head>
 <body>
+<div id="header" class="fadeIn animation_delay"> <!--animation menu + menu fixe -->
+  <nav class="top-bar" data-topbar role="navigation"> <!-- menu fixe -->
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">LOGO</a></h1> <!-- logo à gauche du menu (il faudrait mettre un vrai logo) -->
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <section class="top-bar-section" data-options="sticky_on">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="active"><a href="file:///Users/clemishow/Desktop/SEMAINE%20INTENSIF%202/Intensite-week/HEXO/product.html">PRODUCT</a></li>
+        <li class="active"><a href="#">ENTREPRISE</a></li>
+        <li class="active"><a href="#">BLOG</a></li>
+        <li class="active"><a href="#">PREORDER NOW</a></li>
+      </ul>
+    </section>
+  </nav>
+</div>  
 <div id="fullpage">
   <div class="section" id="section0">
     <div class="intro">
-        <h1 id="animation_title_product" class="fadeIn">HEXO+</h1>
-        <img id="animation_frame_product" class="fadeIn" src="img/drone1.png" width="500">
+        <h1 class="fadeIn animation_delay_two">HEXO+</h1>
+        <img class="fadeIn animation_delay_two" src="img/drone3.png" width="500">
     </div>
   </div>
   <div class="section" id="section1">
@@ -68,7 +88,6 @@
     </div>
   </div>
 </div>
-
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>

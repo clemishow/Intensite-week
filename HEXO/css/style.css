@@ -68,7 +68,15 @@
 	height: 200px !important;
 }
 
-/* animation product*/
+#gif_drone {
+	background: ('url:img/drone.gif');
+	width: 200px;
+	height: 100px;
+}
+
+
+
+/* animation */
 #animation_title_product {
     -webkit-animation-duration: 2s; 
     animation-duration: 2s; 
@@ -140,6 +148,25 @@
 } 
 }
 
+.animation_delay_two {
+	-webkit-animation-duration: 2s; 
+    animation-duration: 2s;
+    -webkit-animation-delay: 2s; 
+    animation-delay: 2s;  
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+}
+
 
 .moveOn {
 	@keyframes moveOn{
@@ -186,4 +213,52 @@
   -ms-animation: moveOn linear 4s;
   -ms-animation-iteration-count: 1;
   -ms-transform-origin: 50% 50%;
+}
+
+#drone {
+	z-index: 9999;
+}
+
+.better_text {
+	background-color: black;
+	width: 400px;
+	opacity: 0.3;
+	margin-top: -200px !important;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.title_home {
+	z-index: 9999;
+}
+
+#video_fly {
+	width: 500px;
+}
+
+.floating{
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 20px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 20px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+#drone {
+	margin-top: -180px !important;
 }
