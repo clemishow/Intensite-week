@@ -1,0 +1,125 @@
+<!DOCTYPE>
+<html lang=fr>
+<head>
+        <meta charset="UTF-8">
+        <title> Me joindre </title>
+        <!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="styles/style2.css"/>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/960_12_col.css">
+        <link rel="stylesheet" href="styles/font-awesome.css">
+</head>
+<body>
+	<div id="nav">
+		<div class="container">
+			<ul id="contact">
+				
+				 <li><a href="index.html"><i class="fa fa-home"></i>Accueil</a></li>
+                <li><a href="presentation.html"><i class="fa fa-codepen"></i>Présentation</a></li>
+                <li><a href="joindre.html"><i class="fa fa-users"></i>Joindre</a></li>
+			</ul>
+		</div>
+	</div> 
+	<h2 id="titre">Donnez votre avis pour faire évoluer le site</h2>
+	<form action="formail.php" method="post" id="inscription">
+			<fieldset>
+				<legend>Vous</legend>
+				<p>
+					<span class="fixedlabel">Vous êtes :</span>
+					<input type="radio" name="sexe" value="F" id="inputFemme" checked="checked">
+					<label for="inputFemme" class="labelRadio">Une femme</label>
+					<input type="radio" name="sexe" value="H" id="inputHomme">
+					<label for="inputHomme" class="labelRadio">Un homme</label>
+				</p>
+				<p>
+					<label for="prenom" class="fixedlabel">Votre prénom :</label>
+					<input type="text" name="chpsPrenom" id="prenom"/>
+				</p>
+				<p>
+					<label for="nom" class="fixedlabel">Votre nom :</label>
+					<input type="text" name="chpsNom" id="nom"/>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Votre adresse</legend>
+				<p>
+					<label for="adresse" class="fixedlabel">Votre adresse :</label>
+					<input type="text" name="chpsAdresse" id="adresse" placeholder="Exemple : Rue Saint-Antoine"/>
+				</p>
+				<p>
+					<label for="cp" class="fixedlabel">Votre code postal :</label>
+					<input type="text" name="chpsCp" id="cp" placeholder="Exemple : 75004"/>
+				</p>
+				<p>
+					<label for="ville" class="fixedlabel">Votre ville :</label>
+					<input type="text" name="chpsVille" id="ville" placeholder="Exemple : Paris"/>
+				</p>
+				<p>
+					<label for"pays" class="fixedlabel">Votre pays :</label>
+					<select name="chpspays" id="pays">
+							<option value="">Country...</option>
+							<option value="DZ">Algeria</option>
+							<option value="AR">Argentina</option>
+							<option value="AU">Australia</option>>
+							<option value="BE">Belgium</option>
+							<option value="BR">Brazil</option>
+							<option value="CA">Canada</option>
+							<option value="CN">China</option>
+							<option value="CO">Colombia</option>
+							<option value="HR">Croatia</option>
+							<option value="CU">Cuba</option>
+							<option value="DK">Denmark</option>
+							<option value="FR">France</option>
+							<option value="HK">Hong Kong</option>
+							<option value="ID">Indonesia</option>
+							<option value="IL">Israel</option>
+							<option value="IT">Italy</option>
+							<option value="JM">Jamaica</option>
+							<option value="JP">Japan</option>>
+							<option value="KS">Korea South</option>
+							<option value="NL">Netherlands</option>
+							<option value="PS">Palestine</option>
+							<option value="PT">Portugal</option>
+							<option value="PR">Puerto Rico</option>
+							<option value="QA">Qatar</option>
+							<option value="RU">Russia</option>
+							<option value="SA">Saudi Arabia</option>
+							<option value="SC">Seychelles</option>
+							<option value="ZA">South Africa</option>
+							<option value="ES">Spain</option>
+							<option value="SE">Sweden</option>
+							<option value="CH">Switzerland</option>
+							<option value="TR">Turkey</option>
+							<option value="AE">United Arab Emirates</option>
+							<option value="GB">United Kingdom</option>
+							<option value="US">United States of America</option>
+
+						<select name="country">
+					</select>
+				</p>	
+			</fieldset>
+			<fieldset>
+				<legend>Commentaire</legend>
+				<p>
+					<label for="chpscCommentaire">Votre commentaire :</label>
+					<textarea name="chpsCommentaire" id="Commentaire"></textarea>
+				</p>
+			</fieldset>
+			<p>
+				<span class="spanCGV">
+					<input type="checkbox" value"cgv" id="cgv" name="cgv">
+					<label for="cgv">Accepter les CGV</label>
+				</span>
+
+			<input type="submit" value="Valider"/>
+			</p>
+		</form>
+
+
+
+</body>
+</html>

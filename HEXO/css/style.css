@@ -1,0 +1,104 @@
+/*HEADER FIXER*/
+#header {
+		position: fixed;
+		display: block;
+		width: 100%;
+		background: #333;
+		z-index: 9;
+		text-align: center;
+		color: #f2f2f2;
+}
+
+#header {
+		top: 0px;
+}
+
+.video_home {
+	margin-top: -170px;
+	height: 100%;
+}
+
+	h1 {
+	font-size: 5em;
+	font-family: 'arial' !important;
+	color: #fff;
+	margin:0;
+	padding:0;
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section {
+	text-align:center;
+}
+
+#myVideo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top:0;
+	right:0;
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+ 	background-color: black; /* in case the video doesn't fit the whole page*/
+  	background-image: /* our video */;
+  	background-position: center center;
+  	background-size: contain;
+   	object-fit: cover; /*cover video background */
+	z-index:3;
+}
+
+/* Layer with position absolute in order to have it over the video
+* --------------------------------------- */
+#section0 .layer {
+	position: absolute;
+	z-index: 4;
+	width: 100%;
+	left: 0;
+	top: 43%;
+}
+
+/*solves problem with overflowing video in Mac with Chrome */
+#section0 {
+	overflow: hidden;
+}
+
+#section2 {
+	height: 200px !important;
+}
+
+#gif_drone {
+	background: ('url:img/drone.gif');
+	width: 200px;
+	height: 100px;
+}
+
+#drone {
+	z-index: 9999;
+}
+
+.better_text {
+	background-color: black;
+	width: 400px;
+	opacity: 0.3;
+	margin-top: -200px !important;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.title_home {
+	z-index: 9999;
+}
+
+#video_fly {
+	width: 500px;
+}
+
+#drone {
+	margin-top: -180px !important;
+}
+
+h3 {
+  color: white !important;
+}
