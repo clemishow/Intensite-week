@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles/style.css"/>
+        <title>Formulaire</title>
+	</head>
+	<body>
+        <div>
+            <h1>Envoyez moi un message</h1>
+            <h2>Vous avez une requête ? N'hésitez pas.</h2>
+        
+		<form action="inscription.php" method="post" id="inscription">
+			<fieldset>
+<label for="email" class="labelFixed"> Email </label>
+<input type="text" name="champEmail"/>
+
+<label for="firstname" class="labelFixed"> Nom </label>
+<input type="text" name="champusername"/>
+
+<label for="lastname" class="labelFixed"> Prénom </label>
+<input type="text" name="champpassword"/>
+
+<label for="message" class="labelFixed"> Message <textarea name="ChpsCommentaire" id="commentaire"></textarea></label>
+               
+<span class="spanCGV">
+
+<input type="submit" value="ENVOYER"/>
+        </form>
+            </fieldset>
+        </div>
+	</body>
+	</html>

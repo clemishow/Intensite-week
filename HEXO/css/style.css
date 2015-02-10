@@ -32,7 +32,7 @@
 	text-align:center;
 }
 
-#myVideo {
+#myVideo1, #myVideo2, #myVideo3, #myVideo4, #myVideo5 {
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -49,6 +49,7 @@
 	z-index:3;
 }
 
+
 /* Layer with position absolute in order to have it over the video
 * --------------------------------------- */
 #section0 .layer {
@@ -64,14 +65,14 @@
 	overflow: hidden;
 }
 
-#section2 {
-	height: 200px !important;
-}
-
 #gif_drone {
 	background: ('url:img/drone.gif');
 	width: 200px;
 	height: 100px;
+}
+
+h3 {
+  color: white!important;
 }
 
 #drone {
@@ -97,8 +98,4 @@
 
 #drone {
 	margin-top: -180px !important;
-}
-
-h3 {
-  color: white !important;
 }
