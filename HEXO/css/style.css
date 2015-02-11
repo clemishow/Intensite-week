@@ -128,7 +128,9 @@ p {
   color: black !important;
 }
 
-
+.resize {
+  margin-top: -180px !important;
+}
 
 
 
