@@ -74,6 +74,10 @@ h3 {
   color: white!important;
 }
 
+h4 {
+  color: white!important;
+}
+
 #drone {
 	z-index: 9999;
 }
@@ -132,8 +136,10 @@ p {
   margin-top: -180px !important;
 }
 
-
-
+.hover:hover {
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
 
 
 
