@@ -133,7 +133,7 @@ p {
 }
 
 .resize {
-  margin-top: -180px !important;
+  margin-top: 10px !important;
 }
 
 .hover:hover {
@@ -145,5 +145,17 @@ p {
   color: blue !important;
 }
 
+.view {
+  display: none !important;
+}
 
+@media only screen and (max-width: 1025px) {
+.hidden {
+    display: none;
+  }
+
+.view {
+  display: block !important;
+}
+}
 
