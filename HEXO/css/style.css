@@ -152,7 +152,7 @@ p {
   border-top: solid 1px #EDEDED;
   width: 100%;
   height: 25px;
-  margin-top: -294px;
+  margin-top: -50px;
 }
 
 .float_ariane {
@@ -163,13 +163,7 @@ p {
 .footer_nav {
   background-color: #E3E3E3;
   width: 100%;
-  min-height: 50px;
-}
-
-.footer_parteners {
-  background-color: #E3E3E3;
-  width: 100%;
-  min-height: 50px;
+  height: 320px;
 }
 
 .footer_align {
@@ -177,13 +171,22 @@ p {
 }
 
 .footer_link {
-  margin-top: 12px;
+  margin-top: 20px;
   color: black;
 }
 
 .footer_link:hover {
   margin-top: 12px;
   color: #125CA0;
+}
+
+.kickstarrter {
+  position: relative;
+  top: -96px;
+}
+
+.spacing {
+  margin-top: 10px; 
 }
 
 .view {
