@@ -58,6 +58,9 @@ $(document).ready(function() {
           idVideo = 5;
           break;
         case 'lastPage':
+          $("#header").removeClass("fadeIn");
+          hidden.style.display = "block";
+          idVideo = 5;
           break;  
       }
 
