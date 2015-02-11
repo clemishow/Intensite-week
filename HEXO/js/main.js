@@ -38,6 +38,7 @@ $(document).ready(function() {
           break;
         case 'secondPage':
           hidden.style.display = "none";
+          $("#header").removeClass("fadeIn");
           idVideo = 1;
           break;
         case 'thirdPage':

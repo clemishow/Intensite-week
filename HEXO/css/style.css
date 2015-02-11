@@ -70,11 +70,9 @@ h1 {
 	overflow: hidden;
 }
 
-h3 + h2 {
+h3 {
   color: white!important;
 }
-
-
 
 #drone {
 	z-index: 9999;
@@ -100,3 +98,42 @@ h3 + h2 {
 #drone {
 	margin-top: -180px !important;
 }
+
+#fp-nav {
+  color: white !important;
+  background-color: !important
+}
+
+.active {
+  color: white !important;
+}
+
+.layer {
+  margin-top: 230px !important;
+}
+
+#logo {
+  color: #0058A4;
+}
+
+.float {
+  float: left;
+}
+
+h2 {
+  color: black!important;
+}
+
+p {
+  color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
