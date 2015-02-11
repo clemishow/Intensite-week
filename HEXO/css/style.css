@@ -146,12 +146,18 @@ p {
   opacity: 0.6;
 }
 
-.opacity_text {
-  opacity: 0.1;
+.ariane {
+  background-color: #FFFFFF;
+  border-bottom: solid 1px #EDEDED;
+  border-top: solid 1px #EDEDED;
+  width: 100%;
+  height: 25px;
+  margin-top: -294px;
 }
 
-.menu-icon {
-  color: blue !important;
+.float_ariane {
+  float: left;
+  margin-left: 8px;
 }
 
 .view {
