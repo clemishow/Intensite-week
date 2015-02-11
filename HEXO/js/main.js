@@ -27,13 +27,13 @@ $(document).ready(function() {
   $(document).foundation();
 
   $('#fullpage').fullpage({
-    anchors: ['home', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixPage'],
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixPage', 'lastPage'],
 
     "afterLoad": function(anchorLink, index) {
       var idVideo = 0;
 
       switch (anchorLink) {
-        case 'home':
+        case 'firstPage':
           hidden.style.display = "block";
           break;
         case 'secondPage':
@@ -57,14 +57,16 @@ $(document).ready(function() {
           hidden.style.display = "none";
           idVideo = 5;
           break;
+        case 'lastPage':
+          break;  
       }
 
       if (idVideo != 0) vidplay(idVideo);
     },
 
-    sectionsColor: ['black', '#34495e', '#34495e', '#34495e', '#34495e', '#34495e'],
+    sectionsColor: ['black', '#34495e', '#34495e', '#34495e', '#34495e', '#34495e', '#34495e'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page', 'Last page'],
+    navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page', 'Six page', 'Last Page'],
   });
 });
