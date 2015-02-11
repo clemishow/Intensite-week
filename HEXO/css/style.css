@@ -189,79 +189,15 @@ p {
   height: 500px;
 }
 
-/*ANIMATION ENTREPRISE*/
-
-.anim_1 {
-  -webkit-animation-duration: 2s; 
-  animation-duration: 2s;
-  -webkit-animation-delay: 2s; 
-  animation-delay: 2s; 
+#title_entreprise {
+  margin-top: -200px !important;
 }
-
-#anim_2 {
-  -webkit-animation-duration: 2s; 
-  animation-duration: 2s;
-  -webkit-animation-delay: 2s; 
-  animation-delay: 2s;  
-}
-
-#anim_3 {
-  -webkit-animation-duration: 2s; 
-  animation-duration: 2s;
-  -webkit-animation-delay: 2s; 
-  animation-delay: 2s;    
-}
-
-#anim_4 {
-  -webkit-animation-duration: 2s; 
-  animation-duration: 2s;
-  -webkit-animation-delay: 2s; 
-  animation-delay: 2s;  
-}
-
-#anim_5 {
-  -webkit-animation-duration: 2s; 
-  animation-duration: 2s;
-  -webkit-animation-delay: 2s; 
-  animation-delay: 2s;   
-}
-
-#anim_6 {
-  -webkit-animation-duration: 2s; 
-  animation-duration: 2s;
-  -webkit-animation-delay: 2s; 
-  animation-delay: 2s;   
-}
-
-#anim_7 {
-  -webkit-animation-duration: 2s; 
-  animation-duration: 2s;
-  -webkit-animation-delay: 2s; 
-  animation-delay: 2s;   
-}
-
-#anim_8 {
-  -webkit-animation-duration: 2s; 
-  animation-duration: 2s;
-  -webkit-animation-delay: 2s; 
-  animation-delay: 2s;   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .spacing {
+  margin-top: 10px; 
+}
+
+.spacing_100 {
   margin-top: 10px; 
 }
 
@@ -281,6 +217,10 @@ p {
 .footer_link {
   font-size: 14px;
   margin-top: 10px !important;
+}
+
+#title_entreprise {
+  margin-top: 0px !important;
 }
 }
 
