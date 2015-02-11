@@ -189,6 +189,78 @@ p {
   height: 500px;
 }
 
+/*ANIMATION ENTREPRISE*/
+
+.anim_1 {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s; 
+}
+
+#anim_2 {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;  
+}
+
+#anim_3 {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;    
+}
+
+#anim_4 {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;  
+}
+
+#anim_5 {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;   
+}
+
+#anim_6 {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;   
+}
+
+#anim_7 {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;   
+}
+
+#anim_8 {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .spacing {
   margin-top: 10px; 
 }
