@@ -161,18 +161,29 @@ p {
 }
 
 .footer_nav {
-  background-color: #95a5a6;
+  background-color: #E3E3E3;
   width: 100%;
   min-height: 50px;
+}
 
+.footer_parteners {
+  background-color: #E3E3E3;
+  width: 100%;
+  min-height: 50px;
 }
 
 .footer_align {
   margin-right: 50px;
 }
 
-#section2 > div > div.footer_nav > div > div:nth-child(3) > a {
-  margin-top: 10px !important;
+.footer_link {
+  margin-top: 12px;
+  color: black;
+}
+
+.footer_link:hover {
+  margin-top: 12px;
+  color: #125CA0;
 }
 
 .view {
@@ -186,6 +197,11 @@ p {
 
 .view {
   display: block !important;
+}
+
+.footer_link {
+  font-size: 14px;
+  margin-top: 10px !important;
 }
 }
 
