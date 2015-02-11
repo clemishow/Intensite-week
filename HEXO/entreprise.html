@@ -15,7 +15,7 @@
   <nav class="top-bar" data-topbar role="navigation"> <!-- menu fixe -->
     <ul class="title-area">
       <li class="name">
-        <h1><a id="logo" href="#"><img src="img/logo.png" width="140"></a></h1> <!-- logo à gauche du menu (il faudrait mettre un vrai logo) -->
+        <h1><a id="logo" href="#"><img class="zoom" src="img/logo.png" width="140"></a></h1> <!-- logo à gauche du menu (il faudrait mettre un vrai logo) -->
       </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -35,14 +35,14 @@
 <div id="fullpage"> <!-- animation scroll -->
   <div class="section" id="section0"> <!-- slide 1 -->  
     <h2 id="title_entreprise">L'équipe Hexo+</h2>
-    <img class="fade-in one" alt="Antoine Level"src="img/image_1.png">
-    <img class="fade-in seven" alt="Sylvain Montreuil" src="img/image_2.png">
-    <img class="fade-in two" alt="Mathieu Giraud" src="img/image_3.png">
-    <img class="fade-in five" alt="Max Sarrazin" src="img/image_4.png">
-    <img class="fade-in eight" alt="Xavier De Le Rue" src="img/image_5.png">
-    <img class="fade-in three" alt="William Thielicke" src="img/image_6.png">
-    <img class="fade-in four" alt="Medhi Mugnier" src="img/image_7.png">
-    <img class="fade-in six" alt="Christophe Baillon" src="img/image_8.png"></br>
+    <img class="fade-in one zoom_entre" alt="Antoine Level"src="img/image_1.png">
+    <img class="fade-in seven zoom_entre" alt="Sylvain Montreuil" src="img/image_2.png">
+    <img class="fade-in two zoom_entre" alt="Mathieu Giraud" src="img/image_3.png">
+    <img class="fade-in five zoom_entre" alt="Max Sarrazin" src="img/image_4.png">
+    <img class="fade-in eight zoom_entre" alt="Xavier De Le Rue" src="img/image_5.png">
+    <img class="fade-in three zoom_entre" alt="William Thielicke" src="img/image_6.png">
+    <img class="fade-in four zoom_entre" alt="Medhi Mugnier" src="img/image_7.png">
+    <img class="fade-in six zoom_entre" alt="Christophe Baillon" src="img/image_8.png"></br>
     <a href="#" id="scroll_down" class="hidden button spacing_50 animation_delay fadeIn floating">En savoir plus</a>
       <!--<div class="row spacing_20 hidden team">
         <div class="large-2 columns"></div>
@@ -64,7 +64,11 @@
   </div>
   <!-- SECTION 3 -->
     <div class="section hidden" id="section2"> 
-
+      <div class="row">
+        <div class="large-4 columns"><span class="counter">1,234,567</span></div>
+          <div class="large-4 columns"><span class="counter">1,234,567</span></div>
+        <div class="large-4 columns"><span class="counter">1,234,567</span></div>
+      </div>  
     </div>
 <!-- FOOTER -->    
   <div class="section" id="section2"> 
@@ -85,16 +89,16 @@
          <h5>Partenaires</h5> 
           <div class="row footer_align">
             <div class="large-1 columns"></div>
-              <div class="large-2 columns footer_link"><a class="footer_link" href="http://gopro.com/" title="GoPro" target="_blank"><img src="img/goproL.png" width="120"></a></div>
-                <div class="large-2 columns footer_link"><a class="footer_link" href="http://www.redbull.com/" title="RedBull" target="_blank"><img src="img/RedBullL.png" width="100"></a></div>
-                  <div class="large-2 columns footer_link"><a class="footer_link" href="http://fise-events.net/" title="Fise" target="_blank"><img src="img/FiseL.png" width="120"></a></div>
-                <div class="large-2 columns footer_link"><a class="footer_link" href="http://nitrocircus.com/" title="Nitro Circus" target="_blank"><img src="img/NitroL.png" width="100"></a></div>
-              <div class="large-2 columns footer_link"><a class="footer_link" href="http://xgames.espn.go.com/" title="XGames" target="_blank"><img src="img/XGamesL.png" width="50"></a></div>
+              <div class="large-2 columns footer_link"><a class="footer_link" href="http://gopro.com/" title="GoPro" target="_blank"><img src="img/goproL.png" class="zoom" width="120"></a></div>
+                <div class="large-2 columns footer_link"><a class="footer_link" href="http://www.redbull.com/" title="RedBull" target="_blank"><img src="img/RedBullL.png" class="zoom" width="100"></a></div>
+                  <div class="large-2 columns footer_link"><a class="footer_link" href="http://fise-events.net/" title="Fise" target="_blank"><img src="img/FiseL.png" class="zoom" width="120"></a></div>
+                <div class="large-2 columns footer_link"><a class="footer_link" href="http://nitrocircus.com/" title="Nitro Circus" target="_blank"><img src="img/NitroL.png" class="zoom" width="100"></a></div>
+              <div class="large-2 columns footer_link"><a class="footer_link" href="http://xgames.espn.go.com/" title="XGames" target="_blank"><img src="img/XGamesL.png" class="zoom" width="50"></a></div>
             <div class="large-1 columns"></div>
           </div>
           <div class="spacing view"></div>
       </div>
-      <a href="https://www.kickstarter.com/projects/sqdr/hexo-your-autonomous-aerial-camera" title="kickstarter website"><img class="kickstarrter hidden" src="img/kickstarter.png" width="200"></a>
+      <a href="https://www.kickstarter.com/projects/sqdr/hexo-your-autonomous-aerial-camera" title="kickstarter website"><img class="zoom kickstarrter hidden" src="img/kickstarter.png" width="200"></a>
       <p class="copyright">© 2015. All rights reserved.</p>       
     </div>  
     <!--FIN DE LA PAGE -->
@@ -104,5 +108,8 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
     <script src="js/entreprise.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+
   </body>
 </html>

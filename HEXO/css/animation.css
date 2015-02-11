@@ -226,3 +226,38 @@ animation-delay: 1.4s;
 -moz-animation-delay: 1.6s;
 animation-delay: 1.6s;
 }
+
+/*ZOOM*/
+
+ .zoom_entre {
+  cursor: pointer;
+  width: 135px;
+  height: 133px;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.zoom_entre:hover {
+  transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+}
+
+.zoom {
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+}
+ 
+.zoom:hover {
+  transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
