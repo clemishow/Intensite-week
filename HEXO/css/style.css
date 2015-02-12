@@ -93,7 +93,7 @@ h4 {
 
 .boutton {
   text-indent: 0;
-  border: 1px solid #8c8c8c;
+  border: 1px solid white;
   display: inline-block;
   color: #ffffff;
   font-size: 15px;
@@ -106,7 +106,7 @@ h4 {
 }
 
 .boutton:hover {
-  color: white;
+  color: blue;
   background-color: transparent;
   transition: all 1s ease;
 }
@@ -126,10 +126,6 @@ h4 {
 #fp-nav {
   color: white !important;
   background-color: !important
-}
-
-.active {
-  color: white !important;
 }
 
 .layer {
@@ -255,6 +251,10 @@ p {
   margin-top: 0px !important;
 }
 
+.number {
+  color: black !important;
+  font-size: 25px !important;
+}
 
 /*ODOMETER*/
 
