@@ -6248,6 +6248,15 @@ span.counter.number {
   color: black;
 } 
 
+.fa-arrow-right {
+  position: relative;
+  left: 10px;
+}
+
+#more_details {
+  z-index: 999999;
+}
+
 @media only screen and (max-width: 1025px) {
 .title_header {
   margin-top: -71px !important;

@@ -73,3 +73,7 @@ $(document).ready(function() {
     navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page', 'Six page', 'Last Page'],
   });
 });
+
+$( "#scroll_down" ).on( "click", function(){
+  $.fn.fullpage.moveSectionDown();
+});
