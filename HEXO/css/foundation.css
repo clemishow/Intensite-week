@@ -6254,7 +6254,11 @@ span.counter.number {
 }
 
 #more_details {
-  z-index: 999999;
+  z-index: 4;
+}
+
+#more_details_a {
+  z-index: 4;
 }
 
 @media only screen and (max-width: 1025px) {

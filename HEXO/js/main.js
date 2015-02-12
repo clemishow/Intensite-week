@@ -56,6 +56,7 @@ $(document).ready(function() {
         case 'sixPage':
           hidden.style.display = "none";
           idVideo = 5;
+          $('#myModal').foundation('reveal', 'open');
           break;
         case 'lastPage':
           $("#header").removeClass("fadeIn");
