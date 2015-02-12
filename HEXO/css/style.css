@@ -91,6 +91,26 @@ h4 {
 	border-radius: 10px;
 }
 
+.boutton {
+  text-indent: 0;
+  border: 1px solid #8c8c8c;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  width: 260px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.boutton:hover {
+  color: white;
+  background-color: transparent;
+  transition: all 1s ease;
+}
+
 .title_home {
 	z-index: 9999;
 }
@@ -234,6 +254,7 @@ p {
 #title_entreprise {
   margin-top: 0px !important;
 }
+
 
 /*ODOMETER*/
 

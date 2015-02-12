@@ -15,3 +15,9 @@ $(document).ready(function() {
 $( "#scroll_down" ).on( "click", function(){
   $.fn.fullpage.moveSectionDown();
 });
+
+$( "#scroll_down2" ).on( "click", function(){
+  $.fn.fullpage.moveSectionDown();
+});
+
+$("#bouton").hover(inFunction,outFunction)
